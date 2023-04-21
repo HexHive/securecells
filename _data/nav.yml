@@ -2,8 +2,7 @@ title: Table of Contents
 
 paths:
  - index.md
- - docs/arch.md
  - docs/repolink.md
- - docs/page1.md
- - docs/page2.md
+ - docs/arch.md
+ - docs/ufaq.md
 

@@ -1,0 +1,17 @@
+- question: >
+    Is SecureCells trying to bring segmentation back?
+  answer: >
+    While the current implementation of SecureCells maps contiguous VMAs
+    to contiguous physical memory regions, alternate implementations can
+    remove this aspect. 
+    
+    Intermediate address-space mechanisms, like Midgard, are being
+    by processor manufacturers, which can integrate with SecureCells and
+    remove the requirement to map cells to physically contiguous memory.
+
+- question: >
+    Are these questions really asked frequently?
+  answer: >
+    Probably no. These are just questions I thought might be interesting enough
+    to be brought up.
+    
