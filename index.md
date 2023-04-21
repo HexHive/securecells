@@ -4,8 +4,18 @@ title: Home
 
 # SecureCells: A Secure Compartmentalized Architecture
 
+<div class="intro-container">
+<div style="width: 100%">
 SecureCells is a novel virtual memory architecture for secure, efficient and flexible 
 compartmentalization.
+</div>
+
+<div class="thumbnail center">
+<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+<img class="thumbnail" src="{{ '/assets/img/preprint.png' | relative_url }}">
+</a>
+</div>
+</div>
 
 # Publication
 ## Abstract
