@@ -77,17 +77,21 @@ MMU accesses to the PTable.
 Since the same cache line holds permissions for nearby cells, reading 
 permissions for one cell brings in permissions for nearby cells into the cache.
 
-> The PTable starts at offset `(16 * 64T)` bytes
+The PTable starts at offset *(64T[^1] * 16[^2])* bytes.
 
-> The offset of the permission byte PT(SD_cur, cell_i) is `(64T * SD_cur) + i` from the beginning of the PTable
+The offset of the permission byte PT(SD_cur, cell_i) is *((64T[^1] * SD_cur) + i)* from the beginning of the PTable.
 
 ### GTable permissions
 
 Each GTable entry is 4bytes, holding a target 29-bit SDID and 3-bit 
 permissions.
 
-> The GTable starts at offset `(16 * 64T) + (R * 64T)` bytes
+The GTable starts at offset *((64T[^1] * 16[^2]) + (64T[^1] * R))* bytes
 
-> The offsest of grant entry GT(SD_cur, cell_i) is `4 * ((64T * SD_cur) + i)` from the beginning of the GTable
+The offsest of grant entry GT(SD_cur, cell_i) is *4[^3] * ((64T[^1] * SD_cur) + i)* from the beginning of the GTable
 
-[^1]: Related to the cache line size of 64B
+### Footnotes
+
+[^1]: Related to the cache line size of 64-byte
+[^2]: Related to the cell descriptor size of 128-bit/16-byte
+[^3]: Related to the GTable entry size of 32-bit/4-byte
