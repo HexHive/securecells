@@ -5,16 +5,62 @@ title: Home
 # SecureCells: A Secure Compartmentalized Architecture
 
 <div class="intro-container">
-<div style="width: 100%">
-SecureCells is a novel virtual memory architecture for secure, efficient and flexible 
-compartmentalization.
-</div>
+  <div style="width: 100%">
+    SecureCells is a novel virtual memory architecture for secure, efficient and flexible 
+    compartmentalization.
 
-<div class="thumbnail center">
-<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-<img class="thumbnail" src="{{ '/assets/img/preprint.png' | relative_url }}">
-</a>
-</div>
+    <!-- Secure  -->
+    <div class="intro-container">
+      <div class="flex-child center" style="width: 25%">
+        <img height="50" src="{{ '/assets/svg/secure.svg' | relative_url }}">
+      </div>
+      <div class="flex-child">
+        <b>Secure: </b>
+
+        <li> Access control for code and data accesses         </li>
+        <li> Secured call gates for inter-compartment calls    </li>
+        <li> Checks on permission transfers                    </li>
+
+      </div>
+    </div>
+
+    <!-- Performant  -->
+    <div class="intro-container">
+      <div class="flex-child center" style="width: 25%">
+        <img height="50" src="{{ '/assets/svg/fast.svg' | relative_url }}">
+      </div>
+      <div class="flex-child">
+        <b>Performant:     </b>
+
+        <li> Range-based access control checks eliminates duplication in page-table permissions   </li>
+        <li> Userspace instructions for fast compartment switch and permission transfers          </li>
+        <li> Software operations for context isolation                                            </li>
+      </div>
+    </div>
+
+    <!-- Flexible  -->
+    <div class="intro-container">
+      <div class="flex-child center" style="width: 25%">
+        <img height="50" src="{{ '/assets/svg/flexible.svg' | relative_url }}">
+      </div>
+      <div class="flex-child">
+        <b>Flexible:     </b>
+
+        <li> 2-D permissions tables allows different policies                               </li>
+        <li> Software operations can be omitted when unnecessary, improving performance     </li>
+      </div>
+    </div>
+
+
+
+
+  </div>
+
+  <div class="thumbnail center">
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+    <img class="thumbnail" src="{{ '/assets/img/preprint.png' | relative_url }}">
+    </a>
+  </div>
 </div>
 
 # Publication
