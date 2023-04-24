@@ -2,7 +2,7 @@
 title: FAQ
 ---
 
-# (Un)Frequently Asked Questions
+# (In)Frequently Asked Questions
 
 We've compiled a list of the most frequently-asked questions:
 
