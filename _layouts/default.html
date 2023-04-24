@@ -32,7 +32,7 @@
     {% if site.github.is_project_page %}
     <div class="fork-me">
       <a href="{{ site.github.repository_url }}">
-      <img width="149" height="149" src="/assets/svg/sauce.svg" class="attachment-full size-full" alt="Source Code" data-recalc-dims="1">
+      <img width="149" height="149" src="{{ "/assets/svg/sauce.svg" | relative_url }}" class="attachment-full size-full" alt="Source Code" data-recalc-dims="1">
       </a>
     </div>
     {% endif %}
