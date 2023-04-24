@@ -70,10 +70,10 @@ Modern programs are monolithic, combining code of varied provenance without isol
 
 We present SecureCells, a novel architecture for intra-address space compartmentalization. SecureCells enforces per-Virtual Memory Area (VMA) permissions for secure and scalable access control, and introduces new userspace instructions for secure and fast compartment switching with hardware-enforced call gates and zero-copy permission transfers. SecureCells enables novel software mechanisms for call stack maintenance and register context isolation. In microbenchmarks, SecureCells switches compartments  in only 8 cycles on a 5-stage in-order processor, reducing cost by an order of magnitude compared to state-of-the-art. Consequently, SecureCells helps secure high-performance software such as an in-memory key-value store with negligible overhead of less than 3%.
 
+## Paper Citation
+
 SecureCells can be cited as per the BibTex citation below.
 
-
-## Paper Citation
 > (Note, this is currently a placeholder)
 
 ```
