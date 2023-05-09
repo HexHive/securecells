@@ -120,7 +120,8 @@ when relevant, output values directly.
 
 SecureCells leverages instructions similar to ARM's `at` isntructions to read
 permissions from the MMU, and to quickly compute PTable/GTable addresses
-which rely on the metadata cell (see ![PTable layout](/docs/arch.md) for more
+which rely on the metadata cell (see 
+[PTable layout]({{ site.baseurl }}{% link docs/arch.md %}) for more
 details on table layout).
 These instructions map directly to common operations for SecureCells'
 instructions (described in Figure 4 in the paper).

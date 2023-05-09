@@ -12,7 +12,7 @@ These tables describe the memory **Cell**s, permissions for each **SecDiv**
 to these cells, and hold outstanding permissions between grant and receive.
 
 <div>
-<embed src="/assets/svg/ptable_layout.svg" width="100%" height=700px>
+<embed src="{{ '/assets/svg/ptable_layout.svg' | relative_url }}" height=700px>
 </div>
 
 The unified PTable-GTable layout is shown above. 
