@@ -15,7 +15,10 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
-   sodipodi:docname="logo.svg">
+   sodipodi:docname="logo.svg"
+   inkscape:export-filename="/home/abhattac/Documents/seccell/website/assets/svg/logo.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -26,8 +29,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="65.543908"
-     inkscape:cy="-27.911142"
+     inkscape:cx="-26.379973"
+     inkscape:cy="-29.931447"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -48,7 +51,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -58,7 +61,7 @@
      id="layer1"
      transform="translate(-65.666198,-66.012701)">
     <rect
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#eff4a3;stroke-width:1.64192975;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.64192971, 1.64192971;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       style="opacity:0;fill:none;fill-opacity:1;stroke:#eff4a3;stroke-width:1.64192975;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.64192971, 1.64192971000000010;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        id="rect815"
        width="31.232473"
        height="41.922066"
@@ -66,7 +69,7 @@
        y="66.833748" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:12.35671425px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.92675352"
+       style="font-style:normal;font-weight:normal;font-size:12.35671425px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.92675352;opacity:0;"
        x="241.52991"
        y="29.577866"
        id="text819"
@@ -75,6 +78,6 @@
          id="tspan817"
          x="241.52991"
          y="29.577866"
-         style="stroke-width:0.92675352">PLACEHOLDER</tspan></text>
+         style="stroke-width:0.92675352;">PLACEHOLDER</tspan></text>
   </g>
 </svg>
