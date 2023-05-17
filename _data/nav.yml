@@ -5,5 +5,6 @@ paths:
  - docs/repolink.md
  - docs/arch.md
  - docs/emu.md
+ - docs/traps.md
  - docs/ufaq.md
 
