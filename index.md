@@ -57,7 +57,7 @@ title: Home
   </div>
 
   <div class="thumbnail center">
-    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+    <a href="https://infoscience.epfl.ch/record/301914">
     <img class="thumbnail" src="{{ '/assets/img/preprint.png' | relative_url }}">
     </a>
   </div>
