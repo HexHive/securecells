@@ -74,17 +74,19 @@ We present SecureCells, a novel architecture for intra-address space compartment
 
 SecureCells can be cited as per the BibTex citation below.
 
-> (Note, this is currently a placeholder)
-
 ```
 @inproceedings {Bhattacharyya:2023:SecureCells,
-author = {Atri Bhattacharyya and Florian Hofhammer and Yuanlong Li and Siddharth Gupta and Andres Sanchez and Babak Falsafi and Mathias Payer},
+author = {A. Bhattacharyya and F. Hofhammer and Y. Li and S. Gupta and A. Sanchez and B. Falsafi and M. Payer},
+booktitle = {2023 IEEE Symposium on Security and Privacy (SP) (SP)},
 title = {SecureCells: A Secure Compartmentalized Architecture},
-booktitle = {44th IEEE Symposium on Security and Privacy (IEEE S&P 2023)},
 year = {2023},
-address = {San Francisco, CA},
-url = {https://none},
-publisher = {IEEE},
-month = May,
+volume = {},
+issn = {},
+pages = {2921-2939},
+doi = {10.1109/SP46215.2023.00125},
+url = {https://doi.ieeecomputersociety.org/10.1109/SP46215.2023.00125},
+publisher = {IEEE Computer Society},
+address = {Los Alamitos, CA, USA},
+month = {May}
 }
 ```
